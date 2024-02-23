@@ -1,5 +1,5 @@
 name = str(input("What is your name?"))
-age = int(input("How old are you"))
+age = int(input("How old sharonare you"))
 locate = str(input("Where are you?"))
 
 print(f"hello {name} you are {age}years old and live in {locate}")
