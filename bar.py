@@ -5,4 +5,3 @@ if 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:
         print(3)
 print(4)
 
-'a' + 'x' if '123'.isdigit() else 'y' + 'b'
