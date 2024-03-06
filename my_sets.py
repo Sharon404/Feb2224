@@ -1,16 +1,18 @@
-def common_member(a,b):
-    a_set = set(list_1)
-    b_set = set(list_2)
-if(a_set & b_set):
-    print(a_set & b_set)
-else:
-    print("No common elements")
+def create_integer_set():
+    input_str = input("Enter integers separated by spaces: ")
+    integers = map(int, input_str.split())
+    return set(integers)
+
+def main():
+    print("Enter integers for the first set:")
+    set1 = create_integer_set()
+
+    print("Enter integers for the second set:")
+    set2 = create_integer_set()
+
+    common_elements = set1.intersection(set2)
     
-list1 = str(input("Enter Random numbers separating with space "))
-list_1 = list1.split()
-print(list_1)
+    print("Common elements in both sets:", common_elements)
 
-list2 =str(input("Enter more random numbers "))
-list_2 = list2.split()
-print(list_2)
-
+if __name__ == "__main__":
+    main()
