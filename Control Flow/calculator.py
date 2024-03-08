@@ -12,9 +12,9 @@ def divide(x, y):
 
 print("Select the operator")
 print("1.Add\n")
-print("1.Subtract\n")
-print("1.Multiply\n")
-print("1.Divide\n")
+print("2.Subtract\n")
+print("3.Multiply\n")
+print("4.Divide\n")
 
 while True:
     choice = input("Enter choice 1/2/3/4: ")
