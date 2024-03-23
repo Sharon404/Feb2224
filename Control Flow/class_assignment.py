@@ -5,9 +5,9 @@ class Person:
     self.age = age
     self.gender = gender
 
-p1 = Person("John", 36, "Male")
+p = Person("Jane", 25, "Female")
 
 #displaying the information of the person
-print(p1.name)
-print(p1.age)
-print(p1.gender)
+print(p.name)
+print(p.age)
+print(p.gender)
